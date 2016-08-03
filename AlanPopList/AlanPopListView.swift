@@ -1,6 +1,6 @@
 //
 //  AlanPopListView.swift
-//  EnageDots_Swift
+//  AlanPopList
 //
 //  Created by Fisky on 28/07/16.
 //  Copyright © 2016 Apple. All rights reserved.
@@ -160,7 +160,7 @@ public let RADIUS = 5
         self.title = aTitle
         self.options = aOptions
         
-        self.tableView = UITableView(frame:CGRectMake((CGFloat)(POPLISTVIEW_SCREENINSET), (CGFloat)(POPLISTVIEW_SCREENINSET)+(CGFloat)(POPLISTVIEW_HEADER_HEIGHT), rect.size.width-2 * (CGFloat)(POPLISTVIEW_SCREENINSET), UIDevice.currentDevice().orientation.isPortrait ? rect.size.height - 2 * (CGFloat)(POPLISTVIEW_SCREENINSET) - (CGFloat)(POPLISTVIEW_HEADER_HEIGHT) - (CGFloat)(RADIUS) : 200))
+        self.tableView = UITableView(frame:CGRectMake((CGFloat)(POPLISTVIEW_SCREENINSET), (CGFloat)(POPLISTVIEW_SCREENINSET)+(CGFloat)(POPLISTVIEW_HEADER_HEIGHT), rect.size.width-2 * (CGFloat)(POPLISTVIEW_SCREENINSET), UIDevice.currentDevice().orientation.isPortrait ? 200:rect.size.height - 2 * (CGFloat)(POPLISTVIEW_SCREENINSET) - (CGFloat)(POPLISTVIEW_HEADER_HEIGHT) - (CGFloat)(RADIUS) ))
         
         
        

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  AlanPopList
 //
-//  Created by fisky on 28/07/16.
+//  Created by Fisky on 28/07/16.
 //  Copyright © 2016 Apple. All rights reserved.
 //
 
