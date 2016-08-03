@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1806EB941D52066100D6EC02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806EB931D52066100D6EC02 /* AppDelegate.swift */; };
+		1806EB961D52066100D6EC02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806EB951D52066100D6EC02 /* ViewController.swift */; };
+		1806EB991D52066100D6EC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1806EB971D52066100D6EC02 /* Main.storyboard */; };
+		1806EB9B1D52066100D6EC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1806EB9A1D52066100D6EC02 /* Assets.xcassets */; };
+		1806EB9E1D52066100D6EC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1806EB9C1D52066100D6EC02 /* LaunchScreen.storyboard */; };
+		1806EBA91D52066100D6EC02 /* AlanPopListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806EBA81D52066100D6EC02 /* AlanPopListTests.swift */; };
+		1806EBB41D52066100D6EC02 /* AlanPopListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806EBB31D52066100D6EC02 /* AlanPopListUITests.swift */; };
+		1806EBC21D52145000D6EC02 /* AlanPopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806EBC11D52145000D6EC02 /* AlanPopListView.swift */; };
+		1806EBC41D5222C100D6EC02 /* pstn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1806EBC31D5222C100D6EC02 /* pstn.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1806EBA51D52066100D6EC02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1806EB881D52066000D6EC02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1806EB8F1D52066000D6EC02;
+			remoteInfo = AlanPopList;
+		};
+		1806EBB01D52066100D6EC02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1806EB881D52066000D6EC02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1806EB8F1D52066000D6EC02;
+			remoteInfo = AlanPopList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1806EB901D52066000D6EC02 /* AlanPopList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlanPopList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1806EB931D52066100D6EC02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1806EB951D52066100D6EC02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1806EB981D52066100D6EC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1806EB9A1D52066100D6EC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1806EB9D1D52066100D6EC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1806EB9F1D52066100D6EC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1806EBA41D52066100D6EC02 /* AlanPopListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlanPopListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1806EBA81D52066100D6EC02 /* AlanPopListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlanPopListTests.swift; sourceTree = "<group>"; };
+		1806EBAA1D52066100D6EC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1806EBAF1D52066100D6EC02 /* AlanPopListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlanPopListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1806EBB31D52066100D6EC02 /* AlanPopListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlanPopListUITests.swift; sourceTree = "<group>"; };
+		1806EBB51D52066100D6EC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1806EBC11D52145000D6EC02 /* AlanPopListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlanPopListView.swift; sourceTree = "<group>"; };
+		1806EBC31D5222C100D6EC02 /* pstn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pstn.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1806EB8D1D52066000D6EC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806EBA11D52066100D6EC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806EBAC1D52066100D6EC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1806EB871D52066000D6EC02 = {
+			isa = PBXGroup;
+			children = (
+				1806EB921D52066100D6EC02 /* AlanPopList */,
+				1806EBA71D52066100D6EC02 /* AlanPopListTests */,
+				1806EBB21D52066100D6EC02 /* AlanPopListUITests */,
+				1806EB911D52066000D6EC02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1806EB911D52066000D6EC02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1806EB901D52066000D6EC02 /* AlanPopList.app */,
+				1806EBA41D52066100D6EC02 /* AlanPopListTests.xctest */,
+				1806EBAF1D52066100D6EC02 /* AlanPopListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1806EB921D52066100D6EC02 /* AlanPopList */ = {
+			isa = PBXGroup;
+			children = (
+				1806EBC31D5222C100D6EC02 /* pstn.png */,
+				1806EB931D52066100D6EC02 /* AppDelegate.swift */,
+				1806EBC11D52145000D6EC02 /* AlanPopListView.swift */,
+				1806EB951D52066100D6EC02 /* ViewController.swift */,
+				1806EB971D52066100D6EC02 /* Main.storyboard */,
+				1806EB9A1D52066100D6EC02 /* Assets.xcassets */,
+				1806EB9C1D52066100D6EC02 /* LaunchScreen.storyboard */,
+				1806EB9F1D52066100D6EC02 /* Info.plist */,
+			);
+			path = AlanPopList;
+			sourceTree = "<group>";
+		};
+		1806EBA71D52066100D6EC02 /* AlanPopListTests */ = {
+			isa = PBXGroup;
+			children = (
+				1806EBA81D52066100D6EC02 /* AlanPopListTests.swift */,
+				1806EBAA1D52066100D6EC02 /* Info.plist */,
+			);
+			path = AlanPopListTests;
+			sourceTree = "<group>";
+		};
+		1806EBB21D52066100D6EC02 /* AlanPopListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1806EBB31D52066100D6EC02 /* AlanPopListUITests.swift */,
+				1806EBB51D52066100D6EC02 /* Info.plist */,
+			);
+			path = AlanPopListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1806EB8F1D52066000D6EC02 /* AlanPopList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1806EBB81D52066100D6EC02 /* Build configuration list for PBXNativeTarget "AlanPopList" */;
+			buildPhases = (
+				1806EB8C1D52066000D6EC02 /* Sources */,
+				1806EB8D1D52066000D6EC02 /* Frameworks */,
+				1806EB8E1D52066000D6EC02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlanPopList;
+			productName = AlanPopList;
+			productReference = 1806EB901D52066000D6EC02 /* AlanPopList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1806EBA31D52066100D6EC02 /* AlanPopListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1806EBBB1D52066100D6EC02 /* Build configuration list for PBXNativeTarget "AlanPopListTests" */;
+			buildPhases = (
+				1806EBA01D52066100D6EC02 /* Sources */,
+				1806EBA11D52066100D6EC02 /* Frameworks */,
+				1806EBA21D52066100D6EC02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1806EBA61D52066100D6EC02 /* PBXTargetDependency */,
+			);
+			name = AlanPopListTests;
+			productName = AlanPopListTests;
+			productReference = 1806EBA41D52066100D6EC02 /* AlanPopListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1806EBAE1D52066100D6EC02 /* AlanPopListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1806EBBE1D52066100D6EC02 /* Build configuration list for PBXNativeTarget "AlanPopListUITests" */;
+			buildPhases = (
+				1806EBAB1D52066100D6EC02 /* Sources */,
+				1806EBAC1D52066100D6EC02 /* Frameworks */,
+				1806EBAD1D52066100D6EC02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1806EBB11D52066100D6EC02 /* PBXTargetDependency */,
+			);
+			name = AlanPopListUITests;
+			productName = AlanPopListUITests;
+			productReference = 1806EBAF1D52066100D6EC02 /* AlanPopListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1806EB881D52066000D6EC02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					1806EB8F1D52066000D6EC02 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Z9X82TSV65;
+					};
+					1806EBA31D52066100D6EC02 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1806EB8F1D52066000D6EC02;
+					};
+					1806EBAE1D52066100D6EC02 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1806EB8F1D52066000D6EC02;
+					};
+				};
+			};
+			buildConfigurationList = 1806EB8B1D52066000D6EC02 /* Build configuration list for PBXProject "AlanPopList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1806EB871D52066000D6EC02;
+			productRefGroup = 1806EB911D52066000D6EC02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1806EB8F1D52066000D6EC02 /* AlanPopList */,
+				1806EBA31D52066100D6EC02 /* AlanPopListTests */,
+				1806EBAE1D52066100D6EC02 /* AlanPopListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1806EB8E1D52066000D6EC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1806EBC41D5222C100D6EC02 /* pstn.png in Resources */,
+				1806EB9E1D52066100D6EC02 /* LaunchScreen.storyboard in Resources */,
+				1806EB9B1D52066100D6EC02 /* Assets.xcassets in Resources */,
+				1806EB991D52066100D6EC02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806EBA21D52066100D6EC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806EBAD1D52066100D6EC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1806EB8C1D52066000D6EC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1806EBC21D52145000D6EC02 /* AlanPopListView.swift in Sources */,
+				1806EB961D52066100D6EC02 /* ViewController.swift in Sources */,
+				1806EB941D52066100D6EC02 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806EBA01D52066100D6EC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1806EBA91D52066100D6EC02 /* AlanPopListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806EBAB1D52066100D6EC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1806EBB41D52066100D6EC02 /* AlanPopListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1806EBA61D52066100D6EC02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1806EB8F1D52066000D6EC02 /* AlanPopList */;
+			targetProxy = 1806EBA51D52066100D6EC02 /* PBXContainerItemProxy */;
+		};
+		1806EBB11D52066100D6EC02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1806EB8F1D52066000D6EC02 /* AlanPopList */;
+			targetProxy = 1806EBB01D52066100D6EC02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1806EB971D52066100D6EC02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1806EB981D52066100D6EC02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1806EB9C1D52066100D6EC02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1806EB9D1D52066100D6EC02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1806EBB61D52066100D6EC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nandakumar Somasundaram (66UWVJ87JH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nandakumar Somasundaram (66UWVJ87JH)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "11bfc1db-270c-4714-9bac-2c7bb20674f0";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1806EBB71D52066100D6EC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nandakumar Somasundaram (66UWVJ87JH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nandakumar Somasundaram (66UWVJ87JH)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "11bfc1db-270c-4714-9bac-2c7bb20674f0";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1806EBB91D52066100D6EC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nandakumar Somasundaram (66UWVJ87JH)";
+				INFOPLIST_FILE = AlanPopList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ndot.LetsChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "11bfc1db-270c-4714-9bac-2c7bb20674f0";
+			};
+			name = Debug;
+		};
+		1806EBBA1D52066100D6EC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nandakumar Somasundaram (66UWVJ87JH)";
+				INFOPLIST_FILE = AlanPopList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ndot.LetsChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "11bfc1db-270c-4714-9bac-2c7bb20674f0";
+			};
+			name = Release;
+		};
+		1806EBBC1D52066100D6EC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlanPopListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ndot.LetsChat.AlanPopListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlanPopList.app/AlanPopList";
+			};
+			name = Debug;
+		};
+		1806EBBD1D52066100D6EC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlanPopListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ndot.LetsChat.AlanPopListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlanPopList.app/AlanPopList";
+			};
+			name = Release;
+		};
+		1806EBBF1D52066100D6EC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlanPopListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ndot.LetsChat.AlanPopListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlanPopList;
+			};
+			name = Debug;
+		};
+		1806EBC01D52066100D6EC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlanPopListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ndot.LetsChat.AlanPopListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlanPopList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1806EB8B1D52066000D6EC02 /* Build configuration list for PBXProject "AlanPopList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1806EBB61D52066100D6EC02 /* Debug */,
+				1806EBB71D52066100D6EC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1806EBB81D52066100D6EC02 /* Build configuration list for PBXNativeTarget "AlanPopList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1806EBB91D52066100D6EC02 /* Debug */,
+				1806EBBA1D52066100D6EC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1806EBBB1D52066100D6EC02 /* Build configuration list for PBXNativeTarget "AlanPopListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1806EBBC1D52066100D6EC02 /* Debug */,
+				1806EBBD1D52066100D6EC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1806EBBE1D52066100D6EC02 /* Build configuration list for PBXNativeTarget "AlanPopListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1806EBBF1D52066100D6EC02 /* Debug */,
+				1806EBC01D52066100D6EC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1806EB881D52066000D6EC02 /* Project object */;
+}
