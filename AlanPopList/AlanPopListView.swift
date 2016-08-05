@@ -27,7 +27,7 @@ public let POPLISTVIEW_HEADER_HEIGHT = 50
 public let RADIUS = 5
 
 
- class AlanPopListView: UIView,UITableViewDelegate,UITableViewDataSource {
+ class AlanPopListView: UIControl,UITableViewDelegate,UITableViewDataSource {
     
   internal  var tableView: UITableView!
   internal var title: String = ""
@@ -39,7 +39,7 @@ public let RADIUS = 5
    internal var colour_title_text:UIColor? = UIColor.greenColor()
    internal var colour_view_bg_color:UIColor? = UIColor.clearColor()
     
-   internal var colour_listview_bg:UIColor? = UIColor.blackColor()
+   internal var colour_listview_bg:UIColor? = UIColor(white: 0, alpha: 0.75)
    internal var colour_listview_item_txtclr:UIColor? = UIColor.greenColor()
 
     
@@ -56,7 +56,9 @@ public let RADIUS = 5
         let ctx: CGContextRef = UIGraphicsGetCurrentContext()!
         // Draw the background with shadow
         CGContextSetShadowWithColor(ctx, CGSizeZero, 6.0, UIColor(white: 0, alpha: 0.75).CGColor)
-        UIColor(white: 0, alpha: 0.75).setFill()
+        colour_listview_bg?.setFill()
+        
+        
 
         let x: CGFloat = (CGFloat)(POPLISTVIEW_SCREENINSET)
         let y: CGFloat = (CGFloat)(POPLISTVIEW_SCREENINSET)
@@ -75,7 +77,7 @@ public let RADIUS = 5
 
         CGContextSetShadowWithColor(ctx, CGSizeMake(0, 1), 0.5, colour_title_line?.CGColor)
         colour_title_line?.setFill()
-        
+       
         self.viewWithTag(10)?.removeFromSuperview()
         let lbltitle: UILabel = UILabel(frame: titleRect)
         lbltitle.tag = 10
@@ -86,10 +88,20 @@ public let RADIUS = 5
     
         self.addSubview(lbltitle)
         //    [_title drawInRect:titleRect withFont:[UIFont systemFontOfSize:16.]];
-        //
-        CGContextFillRect(ctx, separatorRect)
-
         
+        
+        //
+
+   
+        
+        
+        self.addTarget(self, action: #selector(self.closeme), forControlEvents: .TouchUpInside)
+          CGContextFillRect(ctx, separatorRect)
+
+    }
+    func closeme() -> Void {
+        
+        self.fadeOut()
     }
     
     class func initWithTitle(title aTitle: String,superview aSuperView: UIView ,options aOptions: [AnyObject], handler aHandlerBlock: ((anIndex: NSInteger,selectedObject: AnyObject) -> Void)!)->Void {
@@ -168,8 +180,10 @@ public let RADIUS = 5
         self.backgroundColor = colour_view_bg_color
         
         self.tableView.separatorStyle = UITableViewCellSeparatorStyle.SingleLine
-        self.tableView.separatorColor = colour_listview_item_txtclr?.colorWithAlphaComponent(0.1)
-        self.tableView.backgroundColor = colour_listview_bg
+        self.tableView.separatorColor = colour_listview_item_txtclr?.colorWithAlphaComponent(0.2)
+        
+        self.tableView.backgroundColor = UIColor.clearColor()
+        
         self.tableView.dataSource = self
         self.tableView.delegate = self
         self.addSubview(tableView)
